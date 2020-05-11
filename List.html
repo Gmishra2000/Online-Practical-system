@@ -1,0 +1,104 @@
+        <!DOCTYPE html>
+        <html lang="en" dir="ltr">
+        <head>
+        <meta charset="utf-8">
+        <title>Practicals</title>
+        <link rel="stylesheet" href="./styles/table.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <style>
+          table, th, td {
+            border: 2px solid #9C27B0;
+            border-collapse: collapse;
+             
+          }
+          th, td {
+            padding: 5px;
+            text-align: left; 
+           
+          }
+          
+            
+         
+        </style>
+        </head>
+        <body>
+        <main>
+          <header>
+            <h1>ONLINE PRACTICAL SYSTEM</h1>
+            <div class="dropdown" style="float:right;">
+              
+              <button class="dropbtn"><img src="./images/img.png" alt="SE CS A" width="100" height="50"></button>
+              <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="index1.html">Logout</a>
+              </div>
+            </div>
+            
+          </header>
+
+            <div class="heading">
+              <h4>
+                <span id="title-site"></span>Student Practicals(SE CS-A 2019-20)</span>
+              </h4>
+            </div>
+            <form >
+              <fieldset>
+                <div class="title">
+                  <h4>
+                    Subject-:&nbsp;Computer-Graphics 
+                  </h4>
+                </div>
+              
+               <fieldset id="Design">
+                <div class="Creative">
+                  <table width="100%" border="1px">
+                    <thead>
+                      
+                      
+                      <tr id="Column">
+                        <th>Sr.NO &nbsp;</th>
+                        <th>Practical. Name</th>
+                        <th>DateOfPerforMance</th>
+                        <th>Completed</th>
+                      </tr>
+                      
+                    </thead>
+                    <tbody>
+                      <tr id="Row">
+                        <td>1)</td>
+                        <td ><a href="C:\Users\User\Desktop\Online\ABC.docx">BRESENHAM</a></td>
+                        <td>22/1/2020</td>
+                        <td>
+                          <form>
+                          <label class="radio-inline">
+                            <input type="radio" name="Checking" >YES
+                          </label>
+                          <label class="radio-inline">
+                            <input type="radio" name="Checking">NO
+                          </label>
+                          
+                        </form>
+                      </td>
+                      </tr>
+                      
+                    </tbody>
+                  </table>
+              </div>
+              <fieldset id="Cover">
+              <form action="UploadDownloadFileServlet" method="post" enctype="multipart/form-data">
+                Select File to Upload:<input type="file" name="fileName">
+                <br>
+                <input type="submit" value="Upload">
+                </form>
+              </fieldset>
+            </fieldset>
+              </fieldset>
+            </form>
+
+
+        </main>
+
+        </body>
+        </html>
